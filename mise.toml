@@ -1,0 +1,15 @@
+[tools]
+go = "1.26.0"
+goreleaser = "2.13.3"
+
+[tasks.run]
+description = "Run kr locally"
+run = "go run . "
+
+[tasks.build]
+description = "Build for all platforms"
+run = 'goreleaser build --snapshot --clean'
+
+[tasks.clean]
+description = "Remove build artifacts"
+run = "rm -rf kr dist"

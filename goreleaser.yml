@@ -1,0 +1,8 @@
+version: 2
+project_name: kr
+builds:
+  - id: kr
+    goos: [darwin, linux, windows]
+    flags: [-trimpath]
+    goarch: [amd64, arm64]
+    ldflags: [-s -w]
