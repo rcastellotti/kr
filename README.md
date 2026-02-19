@@ -1,5 +1,11 @@
 # kr
 
+Install (macOS/Linux):
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/rcastellotti/kr/main/install.sh | sh
+```
+
 ```sh
 kr - micro KeyRing manager
 
